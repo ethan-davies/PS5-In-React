@@ -1,0 +1,19 @@
+#games {
+    display: inline-block;
+}
+
+.game__item {
+    display: inline-block;
+    width: 6em;
+    height: 6em;
+    background-color: #0d0d0d;
+    border-radius: 1em;
+    padding: 10px;
+    margin: 5px;
+}
+
+.game__item img {
+    width: 6em;
+    height: 6em;
+    border-radius: 1em;
+}

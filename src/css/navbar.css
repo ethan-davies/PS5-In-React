@@ -1,0 +1,41 @@
+h3 {
+    display: inline-block;
+    font-size: 30px;
+    padding: 0em 1em 0em 1em;
+}
+
+#navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3.5em;
+    display: flex;
+    gap: 5em;
+}
+
+a {
+    font-weight: 300;
+    text-decoration: none;
+    color: #a6a5a8;  
+}
+
+a:hover {
+    color: #88878a;
+}
+
+.bold {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.bold:hover {
+    color: #e4e4e4;
+}
+
+#icon-container {
+    display: flex;
+    gap: 3em;
+}
+
+.navbar__left {
+    padding-right: 5em;
+}
