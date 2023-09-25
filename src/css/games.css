@@ -1,5 +1,16 @@
 #games {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+#games-container {
+    padding-left: 4.5em;
+}
+
+span {
+    color: #ede6e6;
+    display: block;
+    font-weight: 300;
 }
 
 .game__item {
@@ -10,10 +21,51 @@
     border-radius: 1em;
     padding: 10px;
     margin: 5px;
+
+    background-image: linear-gradient(45deg, rgba(22,28,33,1) 0%, rgba(12,13,14,1) 100%);
 }
 
 .game__item img {
     width: 6em;
     height: 6em;
+    border-radius: 0.4em;
+}
+
+.game__icon {
+    display: inline-block;
+    width: 8em;
+    height: 8em;
+    background-color: #0d0d0d;
+    padding: 10px;
+    margin: 5px;
+
+    background-image: linear-gradient(45deg, rgba(22,28,33,1) 0%, rgba(12,13,14,1) 100%);
     border-radius: 1em;
+}
+
+.game__icon img {
+    width: 8em;
+    height: 8em;
+    border-radius: 0.4em;
+}
+
+.vl {
+  display: inline-block;
+  border-left: 1.5px solid #2f2c2c;
+  height: 1em;
+  margin: 0 0.5em;
+}
+
+#favGame-container {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+}
+
+.console {
+    color: #cfc9c9;
+}
+
+.icon {
+    padding-left: 0.5em;
 }
