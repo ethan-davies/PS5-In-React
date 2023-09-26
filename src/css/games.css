@@ -7,6 +7,11 @@
     padding-left: 4.5em;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 span {
     color: #ede6e6;
     display: block;
@@ -41,6 +46,8 @@ span {
 
     background-image: linear-gradient(45deg, rgba(22,28,33,1) 0%, rgba(12,13,14,1) 100%);
     border-radius: 1em;
+
+    border: 3px solid #fffefe99;
 }
 
 .game__icon img {
@@ -51,7 +58,7 @@ span {
 
 .vl {
   display: inline-block;
-  border-left: 1.5px solid #2f2c2c;
+  border-left: 1.5px solid #433f3f;
   height: 1em;
   margin: 0 0.5em;
 }

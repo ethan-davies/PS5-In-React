@@ -26,7 +26,7 @@ function Games() {
                     return (
 
                         <div className='game__item'>
-                            <img src={props.image} alt={props.name} />
+                            <a href={props.link}><img src={props.image} alt={props.name} /></a>
                         </div>
                     )
                 })}
