@@ -1,7 +1,6 @@
 export interface Game {
     name: string,
     image: string,
-    description?: string,
     link: string
 }
 
@@ -10,13 +9,16 @@ export interface favouriteGame {
     image: string,
     locked: boolean,
     console: string
+
+    description: string,
 }
 
 export let favGame: favouriteGame = {
     name: "NBA 2K21",
     image: "/src/assets/icons/NBA2k.png",
     locked: true,
-    console: "PS5"
+    console: "PS5",
+    description: "NBA 2K21, the latest installment in the acclaimed basketball simulation video game series, offers a highly realistic and visually stunning gaming experience. With its attention to detail in gameplay, graphics, and player animations, it faithfully recreates the excitement of professional basketball. The game features engaging modes like MyCareer, where players can guide their custom character to NBA stardom, and MyTeam, which combines strategy with card collecting. NBA 2K21 also boasts online multiplayer, historical teams and players, and a diverse soundtrack, delivering an immersive and authentic basketball atmosphere that continues to captivate both basketball enthusiasts and gamers alike."
 }
 
 export const games: Game[] = [
