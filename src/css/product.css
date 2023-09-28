@@ -1,0 +1,42 @@
+h1 {
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#product-container {
+    padding-left: 4.5em;
+    margin-top: 20em;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.view-button {
+    background-color: #17181F;
+    border: none;
+    border-radius: 2em;
+    padding: 0.6em 3em; 
+}
+
+.view-button a {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.elipsis-button {
+    background-color: #17181F;
+    color: #ffffff;
+    border: none;
+    border-radius: 100%;
+
+    width: 2.6em;
+    height: 2.6em;
+}
