@@ -6,9 +6,9 @@ import Product from './components/product.tsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <NavBar />
-    <Games />
-    <Product />
-  </React.StrictMode>,
+    <React.StrictMode>
+        <NavBar />
+        <Games />
+        <Product />
+    </React.StrictMode>
 )
