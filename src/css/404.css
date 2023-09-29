@@ -1,0 +1,25 @@
+.notFound-container {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorHeader {
+    border: none;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.errorText {
+    margin: 0;
+}
+
+.error-redirect {
+    color: #0C8CE9;
+}
+
+.error-redirect:hover {
+    color: #0b84db;
+}
