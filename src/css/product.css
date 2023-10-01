@@ -1,5 +1,5 @@
 h1 {
-    font-size: 3em;
+    font-size: 6em;
     padding: 0;
     margin: 0;
     color: transparent;
@@ -9,7 +9,7 @@ h1 {
 
 #product-container {
     padding-left: 4.5em;
-    margin-top: 20em;
+    margin-top: 40em;
 }
 
 .buttons {
@@ -19,6 +19,7 @@ h1 {
 }
 
 .view-button {
+    font-size: 1.2em;
     background-color: #17181f;
     border: none;
     border-radius: 2em;
@@ -37,67 +38,6 @@ h1 {
     border: none;
     border-radius: 100%;
 
-    width: 2.6em;
-    height: 2.6em;
-}
-
-/* modal */
-body.active-modal {
-    overflow-y: hidden;
-}
-
-.btn-modal {
-    padding: 10px 20px;
-    display: block;
-    margin: 100px auto 0;
-    font-size: 18px;
-}
-
-.modal,
-.overlay {
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: fixed;
-}
-
-.overlay {
-    background: rgba(05, 05, 05, 0.8);
-}
-
-.modal-content {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 1.4;
-    background: #1e1e1e;
-    padding: 14px 28px;
-    border-radius: 0.8em;
-    max-width: 600px;
-    min-width: 300px;
-}
-
-.close-modal {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 5px 7px;
-}
-
-.close-modal:hover {
-    cursor: pointer;
-}
-
-.modal-title {
-    margin: 0;
-    padding: 0;
-}
-
-.modal-paragraph {
-    margin: 0;
-    padding-top: 0.25em;
+    width: 3.8em;
+    height: 3.8em;
 }
