@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import '../css/games.css'
 import type { Game } from '../data/games'
 import { games } from '../data/games'
@@ -21,6 +21,8 @@ function Games() {
     const [dots, setDots] = useState(0)
     const [launching, setLaunching] = useState(false)
     const [steamAvailable, setSteamAvailable] = useState(false)
+
+    console.log(launchButtonText)
 
     if (favGame.locked) {
         svg = faLock
